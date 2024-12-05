@@ -214,6 +214,4 @@ if(isset($_POST['form1'])) {
 		</div>
 	</div>
 </div>
-
-
 <?php require_once('footer.php'); ?>
