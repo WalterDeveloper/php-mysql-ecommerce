@@ -27,6 +27,7 @@ foreach($_SESSION['cart_size_name'] as $key => $value) {
     $arr_cart_size_name[$i] = $value;
 }
 
+
 $i=0;
 foreach($_SESSION['cart_color_id'] as $key => $value) {
     $i++;
