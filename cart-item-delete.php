@@ -2,6 +2,7 @@
 
 <?php
 
+
 // Check if the product is valid or not
 if( !isset($_REQUEST['id']) || !isset($_REQUEST['size']) || !isset($_REQUEST['color'])  ) {
     header('location: cart.php');
