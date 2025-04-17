@@ -1,7 +1,5 @@
 <?php require_once('header.php'); ?>
-
 <?php
-
 
 // Check if the product is valid or not
 if( !isset($_REQUEST['id']) || !isset($_REQUEST['size']) || !isset($_REQUEST['color'])  ) {
