@@ -38,6 +38,7 @@ foreach ($result as $row)
     $after_body = $row['after_body'];
 }
 
+
 // Checking the order table and removing the pending transaction that are 24 hours+ old. Very important
 $current_date_time = date('Y-m-d H:i:s');
 $statement = $pdo->prepare("SELECT * FROM tbl_payment WHERE payment_status=?");
