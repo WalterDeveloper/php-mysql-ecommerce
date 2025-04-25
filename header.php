@@ -11,6 +11,7 @@ $success_message = '';
 $error_message1 = '';
 $success_message1 = '';
 
+
 // Getting all language variables into array as global variable
 $i=1;
 $statement = $pdo->prepare("SELECT * FROM tbl_language");
