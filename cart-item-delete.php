@@ -7,7 +7,6 @@ if( !isset($_REQUEST['id']) || !isset($_REQUEST['size']) || !isset($_REQUEST['co
     exit;
 }
 
-
 $i=0;
 foreach($_SESSION['cart_p_id'] as $key => $value) {
     $i++;
