@@ -18,6 +18,7 @@ foreach ($result as $row) {
     </div>
 </div>
 
+
 <div class="page">
     <div class="container">
         <div class="row">            
