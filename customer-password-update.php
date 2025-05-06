@@ -18,6 +18,8 @@ if(!isset($_SESSION['customer'])) {
 }
 ?>
 
+
+
 <?php
 if (isset($_POST['form1'])) {
 
