@@ -50,7 +50,6 @@ if (isset($_POST['form1'])) {
     }
 }
 ?>
-
 <div class="page">
     <div class="container">
         <div class="row">            
