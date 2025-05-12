@@ -2,6 +2,7 @@
 <?php include("admin/inc/functions.php"); ?>
 
 
+
 <?php
 // Check if the customer is logged in or not
 if(!isset($_SESSION['customer'])) {
