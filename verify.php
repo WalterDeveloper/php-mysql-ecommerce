@@ -16,6 +16,7 @@ if ( (!isset($_REQUEST['email'])) || (isset($_REQUEST['token'])) )
         }
     }
 
+    
     // everything is correct. now activate the user removing token value from database.
     if($var != 0)
     {
