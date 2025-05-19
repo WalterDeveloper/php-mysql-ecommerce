@@ -11,6 +11,7 @@ foreach ($result as $row) {
 ?>
 
 
+
 <?php
 $error_message = '';
 if(isset($_POST['form1'])) {
