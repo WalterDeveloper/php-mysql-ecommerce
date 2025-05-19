@@ -10,6 +10,7 @@ foreach ($result as $row) {
 }
 ?>
 
+
 <div class="page-banner" style="background-image: url(assets/uploads/<?php echo $about_banner; ?>);">
     <div class="inner">
         <h1><?php echo $about_title; ?></h1>
