@@ -9,6 +9,7 @@ foreach ($result as $row) {
 }
 ?>
 
+
 <?php
 if(!isset($_SESSION['cart_p_id'])) {
     header('location: cart.php');
