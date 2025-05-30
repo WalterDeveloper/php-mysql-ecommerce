@@ -17,7 +17,6 @@ if(!isset($_SESSION['customer'])) {
 }
 ?>
 
-
 <div class="page">
     <div class="container">
         <div class="row">            
