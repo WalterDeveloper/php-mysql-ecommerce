@@ -9,7 +9,6 @@ foreach ($result as $row) {
 }
 ?>
 
-
 <?php
 if( !isset($_REQUEST['id']) || !isset($_REQUEST['type']) ) {
     header('location: index.php');
